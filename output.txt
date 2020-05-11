@@ -1,0 +1,305 @@
+[omehta@mercury1 Hw5]$ make
+./masm_mrd < Hw5.asm > Hw5.obj
+./mic1 prom_mrd.dat Hw5.obj 0 1024
+
+Read in 152 micro instructions
+Read in 197 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000010000000000  base 10:    1024
+
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+235
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+0
+THE SUM OF THESE INTEGERS IS: 
+235
+
+ProgramCounter : 0000000000011000  base 10:      24
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000010  base 10:       2
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 7632832
+
+Type decimal address to view memory,  q  to quit or  c  to continue: c
+
+The new PC is  : 0000000000011000
+
+THE SUM HAS CAUSED AN OVERFLOW
+
+ProgramCounter : 0000000000011100  base 10:      28
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000010  base 10:       2
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 7647210
+
+Type decimal address to view memory,  q  to quit or  c  to continue: c
+
+The new PC is  : 0000000000011100
+
+
+
+q
+THE SUM OF THESE INTEGERS IS: 
+300
+
+ProgramCounter : 0000000000011000  base 10:      24
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000011  base 10:       3
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 9768555
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+make: *** [test] Error 1
+[omehta@mercury1 Hw5]$ make clean
+rm *.obj
+[omehta@mercury1 Hw5]$ make
+./masm_mrd < Hw5.asm > Hw5.obj
+./mic1 prom_mrd.dat Hw5.obj 0 1024
+
+Read in 152 micro instructions
+Read in 197 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000010000000000  base 10:    1024
+
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+255
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+0
+THE SUM OF THESE INTEGERS IS: 
+255
+
+ProgramCounter : 0000000000011000  base 10:      24
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000010  base 10:       2
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 2520901
+
+Type decimal address to view memory,  q  to quit or  c  to continue: c
+
+The new PC is  : 0000000000011000
+
+THE SUM HAS CAUSED AN OVERFLOW
+
+ProgramCounter : 0000000000011100  base 10:      28
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000010  base 10:       2
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 2535279
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+make: *** [test] Error 1
+[omehta@mercury1 Hw5]$ make
+./masm_mrd < Hw5.asm > Hw5.obj
+./mic1 prom_mrd.dat Hw5.obj 0 1024
+
+Read in 152 micro instructions
+Read in 197 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000010000000000  base 10:    1024
+
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+255
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+0
+THE SUM OF THESE INTEGERS IS: 
+255
+
+ProgramCounter : 0000000000011000  base 10:      24
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000010  base 10:       2
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 1297450
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+make: *** [test] Error 1
+[omehta@mercury1 Hw5]$ make
+./masm_mrd < Hw5.asm > Hw5.obj
+./mic1 prom_mrd.dat Hw5.obj 0 1024
+
+Read in 152 micro instructions
+Read in 197 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000010000000000  base 10:    1024
+
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+16341
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+957
+THE SUM OF THESE INTEGERS IS: 
+17298
+
+ProgramCounter : 0000000000011000  base 10:      24
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 2075340
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+make: *** [test] Error 1
+[omehta@mercury1 Hw5]$ make
+./masm_mrd < Hw5.asm > Hw5.obj
+./mic1 prom_mrd.dat Hw5.obj 0 1024
+
+Read in 152 micro instructions
+Read in 197 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000010000000000  base 10:    1024
+
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+23786
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+12400
+THE SUM HAS CAUSED AN OVERFLOW
+
+ProgramCounter : 0000000000011100  base 10:      28
+Accumulator    : 1111111111111111  base 10:   65535
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111111111  base 10:   65535
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0011000001110000  base 10:   12400
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 1426792
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+make: *** [test] Error 1
+[omehta@mercury1 Hw5]$ make
+./masm_mrd < Hw5.asm > Hw5.obj
+./mic1 prom_mrd.dat Hw5.obj 0 1024
+
+Read in 152 micro instructions
+Read in 197 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000010000000000  base 10:    1024
+
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+12
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+23
+THE SUM OF THESE INTEGERS IS: 
+35
+
+ProgramCounter : 0000000000011000  base 10:      24
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000011  base 10:       3
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 1175167
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+make: *** [test] Error 1
+[omehta@mercury1 Hw5]$ make
+./masm_mrd < Hw5.asm > Hw5.obj
+./mic1 prom_mrd.dat Hw5.obj 0 1024
+
+Read in 152 micro instructions
+Read in 197 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000010000000000  base 10:    1024
+
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+1
+PLEASE ENTER AN INTEGER BETWEEN 1 AND 32767208
+1343
+THE SUM OF THESE INTEGERS IS: 
+1344
+
+ProgramCounter : 0000000000011000  base 10:      24
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000000  base 10:    1024
+ARegister      : 1111111111110101  base 10:   65525
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 835365
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+
+make: *** [test] Error 1
+[omehta@mercury1 Hw5]$ make clean
+rm *.obj
